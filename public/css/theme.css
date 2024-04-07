@@ -1,0 +1,87 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+ 
+/* Universal Body Styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #adecee, #89f7fe); /* Serene sky blue gradient */
+    font-family: 'Roboto', sans-serif; /* Apply Google Font Roboto */
+    overflow: auto;
+}
+ 
+/* Header Styling */
+.header {
+    background-color: #64b5f6; /* Soft sky blue background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Mild box shadow for depth */
+}
+ 
+.header-title {
+    color: #fff176; /* Soft yellow color for titles */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow for enhanced readability */
+}
+ 
+.header-link {
+    color: #ffffff; /* Pure white for header links */
+}
+ 
+.header-link:hover {
+    color: #fff176; /* Soft yellow on hover */
+}
+ 
+/* Button Enhancements */
+.btn-custom {
+    background-color: #00796b; /* Deep teal color */
+    color: #ffffff; /* White text */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Light box shadow */
+}
+ 
+.btn-custom:hover {
+    background-color: #004d40; /* Darker shade of teal on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+ 
+/* Styling for Tables */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+.table-custom tr:nth-child(even) {
+    background-color: #e3f2fd; /* Light blue for even rows */
+}
+ 
+.table-custom th, .table-custom td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #bbdefb; /* Light blue border for row separation */
+}
+ 
+/* Styling for Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #42a5f5; /* Sky blue color for headings */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for a 3D effect */
+}
+ 
+/* Anchor Tag Enhancements */
+a {
+    color: #00796b; /* Deep teal color for anchor tags */
+    transition: color 0.2s ease;
+}
+ 
+a:hover {
+    color: #004d40; /* Darker teal on hover */
+    text-decoration: none; /* No underline on hover for a clean look */
+}
+ 
+/* Fieldset and Legend Styling */
+fieldset {
+    border: 1px solid #64b5f6; /* Matching the header background */
+}
+ 
+legend {
+    padding: 0.2rem 0.5rem;
+    color: #00796b; /* Deep teal color matching the buttons */
+    font-weight: 500; /* Medium font weight for clarity */
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); /* Very subtle text shadow */
+}

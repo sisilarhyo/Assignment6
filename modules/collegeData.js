@@ -1,10 +1,10 @@
 const Sequelize = require("sequelize")
 var sequelize = new Sequelize(
-  "feaascnq",
-  "feaascnq",
-  "l9XBKDETTPqPYHM1x1Rl9ZfBAzNTsVbd",
+  "hqxaqamm",
+  "hqxaqamm",
+  "T_3UBzFjKmgVn7nj0K1InGrZ2aF1nSRE",
   {
-    host: "isilo.db.elephantsql.com",
+    host: "bubble.db.elephantsql.com",
     dialect: "postgres",
     port: 5432,
     dialectOptions: {
